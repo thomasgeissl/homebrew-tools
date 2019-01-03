@@ -1,4 +1,4 @@
-class ofPackageManager < Formula
+class OfPackageManager < Formula
   desc "package manager for openFrameworks"
   homepage "https://github.com/thomasgeissl/ofPackageManager"
   url "https://github.com/thomasgeissl/ofPackageManager/releases/download/0.0.0/ofPackageManager_osx_0.0.0.zip"
