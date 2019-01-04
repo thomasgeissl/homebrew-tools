@@ -6,6 +6,6 @@ class Ofpackagemanager < Formula
   sha256 "82e1afe1e5aff3b65150e7f0aad221949e14ed69eb0e664dda9608b36d267ace"
 
   def install
-    bin.install "bin/*"
+    bin.install Dir["bin/*"]
   end
 end
