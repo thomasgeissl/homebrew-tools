@@ -7,6 +7,6 @@ class Ofpackagemanager < Formula
 
   def install
     bin.install Dir["bin/*"]
-    bin.install_symlink ofPackageManager.app/Contents/MacOS/ofPackageManager
+    bin.install_symlink "ofPackageManager.app/Contents/MacOS/ofPackageManager"
   end
 end
