@@ -3,7 +3,7 @@ class Ofpackagemanager < Formula
   homepage "https://github.com/thomasgeissl/ofPackageManager"
   url "https://github.com/thomasgeissl/ofPackageManager/releases/download/0.0.1/ofPackageManager_osx_0.0.1.zip"
   version "0.0.1"
-  sha256 "d30837c0d867b99522c10c2c201c921b80d1d93a58bfa3ad512190f6c9156b45"
+  sha256 "5b72e72f1c2678d074b7f33bf3da8cff6b27c161de7e46957bd5ab9d56ea6606"
 
   def install
     bin.install Dir["bin/*"]
