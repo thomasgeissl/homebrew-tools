@@ -1,9 +1,9 @@
 class Ofpackagemanager < Formula
   desc "package manager for openFrameworks"
   homepage "https://github.com/thomasgeissl/ofPackageManager"
-  url "https://github.com/thomasgeissl/ofPackageManager/releases/download/0.0.2/ofPackageManager_osx_0.0.2.zip"
-  version "0.0.2"
-  sha256 "53d11337f20bd6d7320cf874565cfec0b13b4411208128b7d36eaecf91b0630e"
+  url "https://github.com/thomasgeissl/ofPackageManager/releases/download/0.0.3/ofPackageManager_osx_0.0.3.zip"
+  version "0.0.3"
+  sha256 "08c59558ef234d4d797321a67579443898d825d5ba233c98c6f5d8c4bc9fa8d9"
 
   def install
     bin.install Dir["bin/*"]
