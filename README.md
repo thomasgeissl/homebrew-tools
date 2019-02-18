@@ -8,4 +8,4 @@ It contains the following packages:
 * ofoscdebugger
 
 My tap can be added via: `brew tap thomasgeissl/tools`
-And packages can be installed with the following command: `brew install packagename``
+And packages can be installed with the following command: `brew install packagename`
