@@ -9,4 +9,4 @@ It contains the following packages:
 * ofmidi2dmx
 
 My tap can be added via: `brew tap thomasgeissl/tools`
-And packages can be installed with the following command: `brew install packagename``
+And packages can be installed with the following command: `brew install packagename`
