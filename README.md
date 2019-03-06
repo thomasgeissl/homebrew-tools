@@ -6,6 +6,7 @@ A collection of tools installable via brew.
 It contains the following packages: 
 * ofpackagemanager
 * ofoscdebugger
+* ofmididebugger
 * ofmidi2dmx
 
 My tap can be added via: `brew tap thomasgeissl/tools`
