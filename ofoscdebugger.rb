@@ -1,9 +1,9 @@
 class Ofoscdebugger < Formula
   desc "osc monitor and sender"
   homepage "https://github.com/thomasgeissl/ofOSCDebugger"
-  url "https://github.com/thomasgeissl/ofOSCDebugger/releases/download/1.1.1/ofOSCDebugger_osx_1.1.1.zip"
-  version "1.1.1"
-  sha256 "652d89e75ee649202369791b12627b9f3bcc3ca2125e55b071eb17378638ec92"
+  url "https://github.com/thomasgeissl/ofOSCDebugger/releases/download/#{version}/ofOSCDebugger_osx_#{version}.zip"
+  version "1.2.0"
+  sha256 "303dd285510b641a502cea63caa459a445c142fc767f66eff6a8b67f91464e78"
 
   def install
     bin.install Dir["bin/*"]
