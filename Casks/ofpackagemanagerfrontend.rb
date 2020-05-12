@@ -1,4 +1,4 @@
-cask 'ofpackagemanager' do
+cask 'ofpackagemanagerfrontend' do
     version '0.0.21-1'
     desc "frontend of ofPackageManager"
     homepage "https://github.com/thomasgeissl/ofPackageManager-frontend"
