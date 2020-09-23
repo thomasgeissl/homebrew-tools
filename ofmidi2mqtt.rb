@@ -6,7 +6,6 @@ class Ofmidi2mqtt < Formula
   sha256 "a43e01d44d76b81a6595a0a4e731faf7c4f36fa22839b2e364108abd11548096"
 
   def install
-    bin.install Dir["bin/*"]
     bin.install_symlink "ofMIDI2MQTT.app/Contents/MacOS/ofMIDI2MQTT"
   end
 end
