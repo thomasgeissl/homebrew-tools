@@ -1,9 +1,9 @@
 class Ofmidi2mqtt < Formula
-  version '1.0.0'
+  version '1.0.1'
   desc "MIDI to MQTT bridge"
   homepage "https://github.com/thomasgeissl/ofMIDI2MQTT"
   url "https://github.com/thomasgeissl/ofMIDI2MQTT/releases/download/#{version}/ofMIDI2MQTT_osx_#{version}.zip"
-  sha256 "e436d3bf1552694c3c019169147e89b3dafc3ac822f22b83c8ea8a1c0c2ff3d1"
+  sha256 "63bf3e3d7445eac8409f294ba42799657871393f32b16b02eca2416866985189"
 
   def install
     bin.install Dir["bin/*"]
