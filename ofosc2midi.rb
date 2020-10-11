@@ -1,4 +1,4 @@
-class Ofmidi2dmx < Formula
+class Ofosc2midi < Formula
   desc "OSC to MIDI bridge"
   homepage "https://github.com/thomasgeissl/ofOSC2MIDI"
   url "https://github.com/thomasgeissl/ofOSC2MIDI/releases/download/#{version}/ofOSC2MIDI_osx_#{version}.zip"
