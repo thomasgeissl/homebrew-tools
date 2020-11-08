@@ -1,9 +1,9 @@
 class Ofmididebugger < Formula
   desc "midi monitor and sender"
   homepage "https://github.com/thomasgeissl/ofMIDIDebugger"
-  url "https://github.com/thomasgeissl/ofMIDIDebugger/releases/download/1.0.0/ofMIDIDebugger_osx_1.0.0.zip"
-  version "1.0.0"
-  sha256 "dd067d3341827e9a78000882a7179f025b1bdb70259d77e98d4f6198f9725a92"
+  version "1.1.0"
+  url "https://github.com/thomasgeissl/ofMIDIDebugger/releases/download/#{version}/ofMIDIDebugger_osx_#{version}.zip"
+  sha256 "ee9823af22148d4486a5759e035f54b143932c73773229bf6cb6481b73b1e36f"
 
   def install
     bin.install Dir["bin/*"]
