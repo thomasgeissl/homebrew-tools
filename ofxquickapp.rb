@@ -1,4 +1,4 @@
-class Ofpackagemanager < Formula
+class Ofxquickapp < Formula
   version '0.0.0'
   desc "ofxQuickApp runs openFrameworks js sketches"
   homepage "https://github.com/thomasgeissl/ofxQuick"
